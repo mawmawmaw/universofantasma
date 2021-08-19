@@ -63,9 +63,19 @@ img.arrow {
     position: absolute;
     animation: bounce 1s ease-in-out infinite;
 }
+.listen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .listen img {
     width: 80px;
-    padding: 40px;
+    padding: 10px 40px;
+}
+.revue{
+    width: 180px;
+}
+.medium{
+    width: 240px;
 }
 @keyframes bounce{
   0%{
