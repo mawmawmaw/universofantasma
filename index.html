@@ -18,14 +18,16 @@
 <meta name="twitter:image" content="https://www.universofantasma.com/img/social.jpg"/>
 <meta name="twitter:image:alt" content="Universo Fantasma | Podcast por Andre&iacute;na Borges"/>
 <meta name="theme-color" content="#ed54a4"/>
+<link rel="icon" href="favicon.png" />
+<link rel="apple-touch-icon" href="img/logo192.jpg" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/fullpage.css" />
 <link rel="stylesheet" href="css/style.css" />
-<link rel="icon" href="favicon.png" />
-<link rel="apple-touch-icon" href="img/logo192.jpg" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script type="text/javascript" src="js/fullpage.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script type='application/ld+json'>
 {
     "@context": "https://schema.org",
@@ -52,11 +54,12 @@
     </div>
     <div id="main">
         <div class="section portada">
-            <img class="logo" src="img/logo.png" alt="Univer Fantasma logo"><br/>
+            <img class="logo" src="img/logo.png" alt="Univer Fantasma logo" data-aos="zoom-in-down"><br/>
             <img class="arrow" src="img/arrow.png" alt="Scroll down">
         </div>
         <div class="section sinopsis">
             <div class="wrapper">
+                <img class="bio-pic" src="img/andreina_borges.jpg" alt="AndreinaBorges Bio Pic"/>
                 <p>Las redes sociales se convirtieron en una pelea de bar, y entre los improperios y los puñetazos es muy difícil hacer sentido de lo que está pasando. Universo Fantasma es un podcast para los que se buscan en libros, canciones y pantallas. Es el lugar al que los buenos conversadores acuden para surtirse de nuevos temas y anécdotas. A través de entrevistas a activistas, artistas y académicos, la escritora de comedia Andreína Borges examina los temas que causan guerras en Twitter, invitando a la audiencia a reflexionar con ella.</p>
                 <img class="arrow" src="img/arrow.png" alt="Scroll down">
             </div>
@@ -79,7 +82,7 @@
                     <img class="revue" src="img/revue.png" alt="Suscr&iacute;bete al Newsletter"/>
                 </a>
                 <h2>Lee mis art&iacute;culos en:</h2>
-                <a href="" title="Lee mis art&iacute;culos en Medium">
+                <a href="https://medium.com/@andreinaborges" title="Lee mis art&iacute;culos en Medium">
                     <img class="medium" src="img/medium.png" alt="Lee mis art&iacute;culos en Medium"/>
                 </a>
             </div>
@@ -87,6 +90,7 @@
     </div>
     <script>
         new fullpage('#main');
+        AOS.init({ duration: 600 });
     </script>
 </body>
 </html>

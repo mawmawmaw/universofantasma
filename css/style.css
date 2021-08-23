@@ -43,12 +43,18 @@ p, a{
     background-color: rgba(0,0,0,0.25);
     padding: 40px;
     border-radius: 10px;
+    border: 1px solid white;
 }
 .section.portada{
     background-image: url(../img/bg1.jpg);
 }
 .section.sinopsis{
     background-image: url(../img/bg2.jpg);
+}
+.bio-pic{
+    width: 220px;
+    border-radius: 50%;
+    border: 1px solid white;
 }
 .section.links{
     background-image: url(../img/bg3.jpg);
@@ -94,7 +100,8 @@ img.arrow {
         font-size: 26px;
     }
     p, a {
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 22px;
     }
     .section {
         background-size: cover;
@@ -107,6 +114,9 @@ img.arrow {
     }
     img.logo {
         width: 340px;
+    }
+    .bio-pic{
+        width: 140px;
     }
     .social {
         top: 20px;
