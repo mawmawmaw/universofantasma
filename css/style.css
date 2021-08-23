@@ -82,6 +82,17 @@ img.arrow {
 .medium{
     width: 240px;
 }
+.madeby {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+.madeby a{
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: none;
+}
 @keyframes bounce{
   0%{
     bottom: 150px
