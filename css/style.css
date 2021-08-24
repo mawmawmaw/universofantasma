@@ -62,6 +62,7 @@ img.logo{
 }
 img.arrow {
     width: 28px;
+    margin-left: -14px;
     position: absolute;
     animation: bounce 1s ease-in-out infinite;
 }
